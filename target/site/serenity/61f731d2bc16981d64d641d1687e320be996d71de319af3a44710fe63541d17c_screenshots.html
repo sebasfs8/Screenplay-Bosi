@@ -126,7 +126,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 01-09-2019 22:06</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 17-03-2021 22:54</span>
     <br style="clear:left"/>
 </div>
 
@@ -167,9 +167,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
                             <span class="test-case-title">
-                                <span class="success-color">Busqueda de un producto Bosi
+                                <span class="error-color">Busqueda de un producto Bosi
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -190,68 +190,79 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">No such element exception: no such element: Unable to locate element: {'method':'xpath','selector':'//li[@class='talla customDimension'][contains(text(),'40')]'}</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.NoSuchElementException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.co.bossi.testing.tasks.PresionarTallaDeseada.performAs(PresionarTallaDeseada.java:26)<br />com.co.bossi.testing.stepsdefinitions.BossiStepsDefinitions.elBuscaUnProductoEspecificoYLoAgregaAlCarrito(BossiStepsDefinitions.java:55)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource4346746617167759614.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="734712c677591ed49bf57db2b301bdcdd283bd91db5122df74b91beefdb960eb.png" title="Example #1: {producto=BOTA ATKINS, talla=40}" width="1366"/>
-                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title="Given sebastian abrio el navegador" width="1366"/>
-                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title="Given sebastian entra a bossi" width="1366"/>
-                <img src="240c051fa2a1da26107a4e9e133db61a3f79f1cd22bd66b219645ada31a57613.png" title="Given sebastian entra a bossi" width="1366"/>
-                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title="sebastian opens the Pagina de inicio" width="1366"/>
-                <img src="11c9ea808c35a47c00ec95c1a4442a867dfd5f40ac7ed1347fb846e8b5f787c7.png" title="sebastian opens the Pagina de inicio" width="1366"/>
-                <img src="7f197f54248ff939faa4a30f6f969a1bbb416e4941b03e707a403b3ee0d95248.png" title="When el busca un producto especifico y lo agrega al carrito
+                <img src="d1002d6569eb95da96b1598d4b74df8d33cc2f04317f7fdb327a7f4e03dff37c.png" title="Given sebastian abrio el navegador" width="1920"/>
+                <img src="d1002d6569eb95da96b1598d4b74df8d33cc2f04317f7fdb327a7f4e03dff37c.png" title="Given sebastian entra a bossi" width="1920"/>
+                <img src="ecd8c29cfa206e52a222b4f4bc0b0db4c3ee5f1b29e3f5edb7b210cec7a0df9a.png" title="Given sebastian entra a bossi" width="1920"/>
+                <img src="d1002d6569eb95da96b1598d4b74df8d33cc2f04317f7fdb327a7f4e03dff37c.png" title="sebastian opens the Pagina de inicio" width="1920"/>
+                <img src="c4b4f9910296a6d343c9e39b5d26b187c10a293ac14fecfb6ab554800cf20af2.png" title="sebastian opens the Pagina de inicio" width="1920"/>
+                <img src="253adc579a3c17a3ddff9bc4437ac72fc5723766bbf5073b3573efc048be1576.png" title="When el busca un producto especifico y lo agrega al carrito
 | producto | talla |
-| BOTA ATKINS | 40 |" width="1366"/>
-                <img src="e4f91f78af79b9deaba4c52985571714fa2191beba0b9226c23875a61a05ef61.png" title="When el busca un producto especifico y lo agrega al carrito
+| BOTA ATKINS | 40 |" width="1920"/>
+                <img src="2e6881f90f2e4d52bc3a9e91ef04cd19d670761de01cc47ef5f43ad450f88228.png" title="sebastian enters 'BOTA ATKINS' into Barra de busqueda" width="1920"/>
+                <img src="5c3708f23a52a3a66f292d8ed62a04a1abb6b2c85220eb597e42d4fe688284c9.png" title="sebastian enters 'BOTA ATKINS' into Barra de busqueda" width="1920"/>
+                <img src="5a8213a16f57e33a146228990daa63cd6f1caa0ed31315c4ce6fd8bde9a4e02a.png" title="sebastian clicks on boton de busqueda" width="1920"/>
+                <img src="c1dad79e9fe9cb7be77b3cae1e89fd30102a285d3bc34e2dcc6d4ea810deece0.png" title="sebastian clicks on boton de busqueda" width="1920"/>
+                <img src="916438852b29687d82437e40839de179e4088778dee7f6130ea61cac61ccdd02.png" title="sebastian clicks on imagen del producto" width="1920"/>
+                <img src="f5bdaeaa229d5cafabf5359e49709e4d27910fba67122e29f0f3181cd8874b66.png" title="sebastian clicks on imagen del producto" width="1920"/>
+                <img src="f5bdaeaa229d5cafabf5359e49709e4d27910fba67122e29f0f3181cd8874b66.png" title="sebastian clicks on #target" width="1920"/>
+                <img src="f5bdaeaa229d5cafabf5359e49709e4d27910fba67122e29f0f3181cd8874b66.png" title="sebastian clicks on #target" width="1920"/>
+                <img src="d1002d6569eb95da96b1598d4b74df8d33cc2f04317f7fdb327a7f4e03dff37c.png" title="Given sebastian abrio el navegador" width="1920"/>
+                <img src="d1002d6569eb95da96b1598d4b74df8d33cc2f04317f7fdb327a7f4e03dff37c.png" title="Given sebastian entra a bossi" width="1920"/>
+                <img src="5a8a69e204ad99f94895f71ae21a9b91e5913e322366cab1d262610365af3b51.png" title="Given sebastian entra a bossi" width="1920"/>
+                <img src="d1002d6569eb95da96b1598d4b74df8d33cc2f04317f7fdb327a7f4e03dff37c.png" title="sebastian opens the Pagina de inicio" width="1920"/>
+                <img src="5a8a69e204ad99f94895f71ae21a9b91e5913e322366cab1d262610365af3b51.png" title="sebastian opens the Pagina de inicio" width="1920"/>
+                <img src="5a8a69e204ad99f94895f71ae21a9b91e5913e322366cab1d262610365af3b51.png" title="When el busca un producto especifico y lo agrega al carrito
 | producto | talla |
-| BOTA ATKINS | 40 |" width="1366"/>
-                <img src="ca6251ba1afdd90e37bf1d2ffb09e28d7a217a546d7d97aeee169980a82a8fd0.png" title="sebastian enters 'BOTA ATKINS' into Barra de busqueda" width="1366"/>
-                <img src="f8bad16a53d993355f44bcb2d73a1a6fa572eae1cc9fbbffacce556b7ef2a72a.png" title="sebastian enters 'BOTA ATKINS' into Barra de busqueda" width="1366"/>
-                <img src="19c93d6552bd1cc13c553a451841a568ca9e8fa6652fe29ff6915bca99d3c8e5.png" title="sebastian clicks on boton de busqueda" width="1366"/>
-                <img src="4bd48a3d1ff8b37d01bb459aceecb1797e1131239eaf31bca87e8c7f26809daf.png" title="sebastian clicks on boton de busqueda" width="1366"/>
-                <img src="f69e10d0a273e50b0f3f1da3ab4042a33ad539a49305d05f491ca5766c621741.png" title="sebastian clicks on imagen del producto" width="1366"/>
-                <img src="611d9bbd67332a7eb66cd75c7ec578cfce442f61ec0a02be3096d48a5a235e76.png" title="sebastian clicks on imagen del producto" width="1366"/>
-                <img src="611d9bbd67332a7eb66cd75c7ec578cfce442f61ec0a02be3096d48a5a235e76.png" title="sebastian clicks on #target" width="1366"/>
-                <img src="8138852e8e19d919ce586319176d0e5600803e5a862ee531dcd28085b03e6af0.png" title="sebastian clicks on #target" width="1366"/>
-                <img src="52ffabd5c711054b581babb756f7f0a0aa7932c2d887fce84c7653d72ecd79fe.png" title="sebastian clicks on boton de comprar" width="1366"/>
-                <img src="42ba906000a76a1e556e2df3230f807325ace1a236c539a50372c581fa86247a.png" title="sebastian clicks on boton de confirmar compra de carrito de compras" width="1366"/>
-                <img src="d77bbda7e33900ba99c6c697c23ae8d6ee2d6a347c03c092a9f3e18aba290c08.png" title="sebastian clicks on boton de confirmar compra de carrito de compras" width="1366"/>
-                <img src="d77bbda7e33900ba99c6c697c23ae8d6ee2d6a347c03c092a9f3e18aba290c08.png" title="sebastian clicks on boton de aceptacion de condiciones" width="1366"/>
-                <img src="f5acb458a40b74138fc8d6409d84e0d979c40925f624be494bf4126715968055.png" title="sebastian clicks on boton de aceptacion de condiciones" width="1366"/>
-                <img src="c34801fae19f5ec206d1c9491d798f30cc420f2b6eeb3eaa29c3594f4ee25dac.png" title="sebastian clicks on boton de confirmar compra de carrito de compras" width="1366"/>
-                <img src="b9ef303fbafee31152a5a5bb4d0331bd3a961986a94eb485a9816ddffb41e7c0.png" title="sebastian clicks on boton de confirmar compra de carrito de compras" width="1366"/>
-                <img src="734712c677591ed49bf57db2b301bdcdd283bd91db5122df74b91beefdb960eb.png" title="Then genera compra y pide correo de confirmacion." width="1366"/>
-                <img src="e4f91f78af79b9deaba4c52985571714fa2191beba0b9226c23875a61a05ef61.png" title="Then genera compra y pide correo de confirmacion." width="1366"/>
-                <img src="734712c677591ed49bf57db2b301bdcdd283bd91db5122df74b91beefdb960eb.png" title="Then en bussi should be 'Ingresa tu mail para continuar la compra.'" width="1366"/>
-                <img src="734712c677591ed49bf57db2b301bdcdd283bd91db5122df74b91beefdb960eb.png" title="Example #2: {producto=BOTA ZIGOR, talla=39}" width="1366"/>
-                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title="Given sebastian abrio el navegador" width="1366"/>
-                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title="Given sebastian entra a bossi" width="1366"/>
-                <img src="331a417fbc17f21f5a5d3809255b680b4837056cdc84ba9fc0ee3ac87f194ce7.png" title="Given sebastian entra a bossi" width="1366"/>
-                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title="sebastian opens the Pagina de inicio" width="1366"/>
-                <img src="43530fd94ccd2a6fd0f59d60071de2d2219fde4306fca91005cfa7f7e84a0620.png" title="sebastian opens the Pagina de inicio" width="1366"/>
-                <img src="73af7a8363ef3cbf8fe76f0408a5a8b8edb6f8edb8ca8bf6edb1bda476abf739.png" title="When el busca un producto especifico y lo agrega al carrito
-| producto | talla |
-| BOTA ZIGOR | 39 |" width="1366"/>
-                <img src="e4f91f78af79b9deaba4c52985571714fa2191beba0b9226c23875a61a05ef61.png" title="When el busca un producto especifico y lo agrega al carrito
-| producto | talla |
-| BOTA ZIGOR | 39 |" width="1366"/>
-                <img src="fb00962aeb04148f4b28b8672875ebb99164180b0dd4bb8caa19cfbfc1e8dca1.png" title="sebastian enters 'BOTA ZIGOR' into Barra de busqueda" width="1366"/>
-                <img src="dca990093046e6cbeb394e8a05859931459a5a49e200d9502cf457fe2c3549e7.png" title="sebastian enters 'BOTA ZIGOR' into Barra de busqueda" width="1366"/>
-                <img src="21abbf19c1c207f05617f33968e601b79650fe64e64145fb1a614be776eb225e.png" title="sebastian clicks on boton de busqueda" width="1366"/>
-                <img src="712b05038f31884cfda688c13ebacd29cd173bd848a8df0c7fe0dafc20d46f28.png" title="sebastian clicks on boton de busqueda" width="1366"/>
-                <img src="712b05038f31884cfda688c13ebacd29cd173bd848a8df0c7fe0dafc20d46f28.png" title="sebastian clicks on imagen del producto" width="1366"/>
-                <img src="efc529d5d8ac9e759a3072e74e4c72c7bc47856832c450fbcca479b476b480d7.png" title="sebastian clicks on imagen del producto" width="1366"/>
-                <img src="2517275ee7b1afc5792c63e6a62387eb3e21b677aec8ca7ff67ba43e7c8cde1a.png" title="sebastian clicks on #target" width="1366"/>
-                <img src="c8ff9b777dda1e06330bfd4576d3a8894ebb3298cc690b56e00e6ff937199ce1.png" title="sebastian clicks on #target" width="1366"/>
-                <img src="604a56a6c2d5ba08c5adbd19e1e1e659621bb0f596854ce11c2b1aa7998d2fa9.png" title="sebastian clicks on boton de comprar" width="1366"/>
-                <img src="ef3b66ff959025db86b4e6da5c02ad68a7ec8086e3631dcfccfaebf38b428025.png" title="sebastian clicks on boton de comprar" width="1366"/>
-                <img src="e0f0127a3b6e3026fa31a93a7ace0dc1e554067f86afbb79764d58a91925fa03.png" title="sebastian clicks on boton de confirmar compra de carrito de compras" width="1366"/>
-                <img src="97a1191f40a19a89c572b1eefeea681e2e79d6b28097e49935ac9f9447799d48.png" title="sebastian clicks on boton de confirmar compra de carrito de compras" width="1366"/>
-                <img src="97a1191f40a19a89c572b1eefeea681e2e79d6b28097e49935ac9f9447799d48.png" title="sebastian clicks on boton de aceptacion de condiciones" width="1366"/>
-                <img src="1df68200c37e4b7d5f3fbbfe9a9fba240942fcaf9b86befba75cb12abf153fff.png" title="sebastian clicks on boton de aceptacion de condiciones" width="1366"/>
-                <img src="58cffb6efec812413d8e71e6c7f5de7f822b82d074355ca926b7aaf211e75d6d.png" title="sebastian clicks on boton de confirmar compra de carrito de compras" width="1366"/>
-                <img src="7a32e03b208a1ba8d620401d30bc9b78c23ee2d060c93222420b69e4b685a5a3.png" title="sebastian clicks on boton de confirmar compra de carrito de compras" width="1366"/>
-                <img src="734712c677591ed49bf57db2b301bdcdd283bd91db5122df74b91beefdb960eb.png" title="Then genera compra y pide correo de confirmacion." width="1366"/>
-                <img src="e4f91f78af79b9deaba4c52985571714fa2191beba0b9226c23875a61a05ef61.png" title="Then en bussi should be 'Ingresa tu mail para continuar la compra.': <span class='success-color'>SUCCESS</span>" width="1366"/>
+| BOTA ZIGOR | 39 |" width="1920"/>
+                <img src="5a8a69e204ad99f94895f71ae21a9b91e5913e322366cab1d262610365af3b51.png" title="sebastian enters 'BOTA ZIGOR' into Barra de busqueda" width="1920"/>
+                <img src="ed7e214d57a30664ffe0ddeb8f52de6c90ea634a11d21d485ab95a9221dcef9d.png" title="sebastian enters 'BOTA ZIGOR' into Barra de busqueda" width="1920"/>
+                <img src="7aa0b25896ff568fb452238b7e4aca059dba910c69d94a97a7cea88923074251.png" title="sebastian clicks on boton de busqueda" width="1920"/>
+                <img src="3ceb4fda823f77be81f92c3741628bce6d68e4070e3ccba3061b421061a7ffa1.png" title="sebastian clicks on boton de busqueda" width="1920"/>
+                <img src="04094bca794c76745325242f0d37a7de0e53874dfa5da369e883060e148b06e0.png" title="sebastian clicks on imagen del producto" width="1920"/>
+                <img src="3c01a278b696add9b4f0629a75202ce6e9ce2f7c01a535964d270df4197667e1.png" title="sebastian clicks on imagen del producto" width="1920"/>
+                <img src="f0a47b29f829ec122e3311b6d36d11f9d000c7d30b701da5bc7a30eb533c9b48.png" title="sebastian clicks on #target" width="1920"/>
+                <img src="1064457ce135f5019fb48c73a2ef9cbcf6af56a97e7553694f717bd1cf16313f.png" title="sebastian clicks on #target: <span class='error-color'>ERROR</span>" width="1920"/>
             </div>
         </div>
 
